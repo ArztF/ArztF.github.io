@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Das Würfelspiel</title>
+    <style>
+        body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(../images/pexels-aleksandar-pasaric-2341830\ \(1\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+        #button,
+        #button2 {
+            background-color: #ddd;
+            display: inline-block;
+            padding: 0.4em 0.8em;
+            margin-bottom: 1em;
+            width: 13.3%;
+            margin-left: 5%;
+            text-align: center;
+        }
+
+        #button:hover,
+        #button2:hover {
+            cursor: pointer;
+        }
+
+        #erg,
+        #erg2,
+        #counter,
+        #counter2 {
+            min-height: 1em;
+            padding: 0.3em;
+            background-color: #ddd;
+            width: 15%;
+            margin-left: 5%;
+            margin-top: 1%;
+            text-align: center;
+        }
+
+        #gewinner{
+            min-height: 1em;
+            padding: 0.3em;
+            background-color: #ddd;
+            width: 36%;
+            margin-left: 5%;
+            margin-top: 1%;
+            text-align: center;
+        }
+
+        .ergebnisse{
+            display: flex;
+        }
+
+        .buttons{
+            display: flex;
+        }
+
+        .header{
+            text-align: center;
+            background-color: lightblue;
+            padding: 10px;
+            margin-bottom: 50px;
+        }
+
+        .boxen{
+            margin-left: 33%;
+        }
+
+        #back{
+            padding: 1%;
+        }
+    </style>
+    <script src="../js/app.js" defer></script>
+</head>
+<body>
+    <div class="header">
+        <h1>Das Würfelspiel</h1>
+    </div>
+
+    <a id="back" href="../index.html"><button>Zurück zum Start</button></a>
+
+    <div class="boxen">
+        <div class="buttons">
+            <div id="button" onclick="neuerWurf()">Spieler 1</div>
+            <div id="button2" onclick="neuerWurf2()">Spieler 2</div>
+        </div>
+        
+        <div class="ergebnisse">
+            <div id="erg"></div>
+            <div id="erg2"></div>
+        </div>
+        
+        <div class="ergebnisse">
+            <div id="counter"></div>
+            <div id="counter2"></div>
+        </div>
+        
+        <div id="gewinner"></div>
+    </div>
+</body>
+</html>
