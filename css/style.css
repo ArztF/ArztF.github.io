@@ -19,7 +19,7 @@ h1{
     width: 10%;
     padding: 0.7%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 32%;
     background-color: red;
     font-size: 90%;
@@ -29,8 +29,24 @@ h1{
     width: 10%;
     padding: 0.7%;
     position: absolute;
-    top: 50%;
+    top: 45%;
     left: 58%;
     background-color: red;
     font-size: 90%;
+}
+
+.images{
+    display: flex;
+}
+
+.images img{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 15%;
+}
+
+.welcome{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 2%;
 }
