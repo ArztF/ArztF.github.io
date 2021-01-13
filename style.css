@@ -1,8 +1,30 @@
 *{
     background-color: rgb(255, 220, 107);
+    margin: 0;
+    padding: 0;
+}
+
+.text{
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+}
+nav{
+    display: flex;
+    background-color: black;
+    padding: 2%;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    margin-left: 28%;
+    font-size: 2vw;
 }
 
 h1{
+    box-sizing: border-box;
     text-align: center;
     font-weight: bolder;
     font-size: 5vw;
@@ -14,6 +36,7 @@ h1{
 }
 
 .images1 img{
+    margin-top: 2%;
     margin-left: 10%;
     width: 20%;
 }
@@ -25,6 +48,18 @@ h1{
 }
 
 @media(max-width: 800px){
+    nav{
+        display: block;
+        width: 100%;
+    }
+    a{
+        display: block;
+        text-align: center;
+        margin-left: -4%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 4vw;
+    }
     .images1{
         display: block;
     }
@@ -43,6 +78,18 @@ h1{
 }
 
 @media(max-width: 500px){
+    nav{
+        display: block;
+        width: 100%;
+    }
+    a{
+        display: block;
+        text-align: center;
+        margin-left: -4%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 4vw;
+    }
     .images1{
         display: block;
     }
