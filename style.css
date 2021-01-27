@@ -10,8 +10,14 @@
     background-position: center;
 }
 
+.überschrift{
+    text-align: center;
+    padding-bottom: 13%;
+    padding-top: 15%;
+}
+
 .secondPage{
-    background-color: rgb(255, 199, 94);
+    background-color: lightblue;
     padding-bottom: 15%;
 }
 
@@ -30,7 +36,7 @@ a{
     text-decoration: none;
     color: white;
     background-color: black;
-    margin-left: 28%;
+    margin-left:18.5%;
     font-size: 2vw;
 }
 
@@ -64,7 +70,7 @@ h1{
 
 @media(max-width: 800px){
     .wrapper{
-        background-color: white;
+        background-color: lightblue;
         background-image: url('');
     }
     nav{
