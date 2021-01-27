@@ -1,7 +1,18 @@
 *{
-    background-color: rgb(255, 220, 107);
     margin: 0;
     padding: 0;
+}
+
+.wrapper{
+    background-image: url('img/IMG_9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.secondPage{
+    background-color: rgb(255, 199, 94);
+    padding-bottom: 15%;
 }
 
 .text{
@@ -21,6 +32,10 @@ a{
     background-color: black;
     margin-left: 28%;
     font-size: 2vw;
+}
+
+a:hover{
+    color: red;
 }
 
 h1{
@@ -48,6 +63,10 @@ h1{
 }
 
 @media(max-width: 800px){
+    .wrapper{
+        background-color: white;
+        background-image: url('');
+    }
     nav{
         display: block;
         width: 100%;
