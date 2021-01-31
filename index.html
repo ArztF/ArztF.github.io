@@ -1,19 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <nav>
-        <a href="#">Startseite</a>
-        <a href="bildergalerie.html">Bildergalerie</a>
-        <a href="info.html">Informationen</a>
-    </nav>
-    <div class="wrapper">
-        <h1 class="überschrift">Herzlich Wilkommen auf meiner offiziellen Webseite</h1>
-    </div>
-</body>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Fitness & Ernährung</title>
+        <meta name="description" content="Flexboxgalerie">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+        <img src="images/bannerIMG.jpg" width="100%">
+        
+        <nav>          
+            <a class="navCont" href="#">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Ernährung</button>
+                <div class="dropdown-content">
+                    <a href="pages/rezepte2.html">Rezepte</a>
+                    <a href="pages/allgemeines.html">Grundlagen</a>
+                </div>
+            </div>
+            <a class="navCont" href="pages/motivation.html">Motivation</a>
+            <a class="navCont" href="pages/training.html">Training</a> 
+        </nav>
+        
+        <div class="wrapper">
+            <h1>Fitness und Ernährung</h1>
+            <p>ein Projekt von Felix Arzt</p>
+        </div>
+        
+        <footer>
+            <h2>Interressante Fitness YouTuber/Influencer</h2>
+            <div class="influenzer">
+                <a href="https://www.instagram.com/simon.mathis_/">
+                    <img class="firstIMG" src="images/simon.jpg">
+                </a>
+                <a href="https://www.youtube.com/user/davidlengauer">
+                    <img class="secIMG" src="images/lengauer.jpg">
+                </a>
+                <a href="https://www.youtube.com/user/keiiner123">
+                    <img class="thirdIMG" src="images/sascha.jpg">
+                </a>
+            </div>
+            <div class="footerText">
+                <div class="contFooter">
+                    <div class="footerContent">
+                        <p class="textFooterKontakt">Email: <a href="mailto:arzt.felix@gmail.com">Felix Arzt</a></p>
+                        <p class="textFooterKontakt">Telefon: <a href="#">0650/2154542</a></p>
+                        <p class="textFooterKontakt">Adresse: <a href="https://www.google.com/maps/place/Leitergraben+35,+4060+Leonding/@48.2814827,14.2081243,17z/data=!3m1!4b1!4m5!3m4!1s0x477390d53e9f915b:0x66bb797a808935ef!8m2!3d48.2814827!4d14.210313">Leitergraben 35 4060 Leonding</a></p>
+                        <p class="textFooterKontakt">Instagram: <a href="https://www.instagram.com/oarztla/?hl=de">oarztla</a></p>
+                    </div>
+                    <a href="https://www.paypal.com/at/home">
+                        <img class="zahlen" src="images/zahlen.png">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>
